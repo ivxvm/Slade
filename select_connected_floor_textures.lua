@@ -6,7 +6,7 @@ function execute(map)
     local selectedSectors = editor:selectedSectors()
 
     if #selectedSectors == 0 then
-        App.logMessage('Select Connected Floor Sectors: No Sectors Selected')
+        App.logMessage('Select Connected Floor Textures: No Sectors Selected')
         return
     end
 
@@ -47,5 +47,5 @@ function execute(map)
         end
     end
 
-    App.logMessage('Select Connected Floor Sectors: Success')
+    App.logMessage('Select Connected Floor Textures: Success')
 end
